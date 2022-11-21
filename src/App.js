@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import MainContainer from './MainContainer';
+import { render } from '@testing-library/react';
 
 function App() {
   return (
