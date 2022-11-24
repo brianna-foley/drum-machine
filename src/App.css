@@ -1,56 +1,40 @@
-.App {
-  text-align: center;
-  background-color: rgb(233, 233, 233);
-  height: 100vh;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#page {
+  background-color: rgb(226, 223, 223);
 }
 
-#card {
-  background-color: rgb(230, 222, 211);
-  width: 500px;
-  height: 300px;
-  margin: 75px auto;
-  border: 2px solid rgb(174, 160, 144);
-  box-shadow: rgb(157, 141, 122) 3px 3px 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+#page-header {
+  color:rgb(66, 63, 63)
+
 }
 
-.drum-pad {
-  box-shadow: rgb(60, 39, 12) 3px 3px 5px;
-  background-color: #335955 !important;
-  border: #1f3634 !important;
-  color: rgb(206, 223, 219) !important;
-  font-weight: bold !important;
-  width: 60px;
-  height: 45px;
+#drum-machine {
+  padding-top: 40px;
 }
 
-.drum-pad:active {
-  background-color: #98af42 !important;
-  border: #96b934 !important;
-  color: rgb(34, 35, 32) !important;
-}
-
-#controls {
-  background-color: aquamarine;
-}
-
-#display {
-  background-color: #335955;
-  border: #1f3634;
-  color: rgb(206, 223, 219);
-  font-weight: bolder;
-  border-radius: 2px;
-  width: 175px;
-  height: 30px;
-  margin: auto;
-  padding: 2px;
+#drum-container {
+  max-width: 350px;
+  background-color: darkgray;
+  border-radius: 5px;
+  position: relative;
+  margin: 10vh auto;
+  border: 2px solid black;
 }
 
 #drum-pads {
-  margin-left: 15px;
-  background-color: darkgoldenrod;
+  border: 2px solid rgb(51, 47, 47);
+  margin: 10px auto;
+  width: 300px;
+}
+
+#drum-pad {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) !important;
+}
+
+#display {
+  width: 160px;
+  height: 50px;
+  border-radius: 2px;
+  border: 1px solid black;
+  margin: 10px auto;
+  padding-top: 10px;
 }
