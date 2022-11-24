@@ -1,5 +1,4 @@
 import './App.css';
-import { render } from '@testing-library/react';
 import Button from 'react-bootstrap/Button';
 import React from 'react';
 
